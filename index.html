@@ -54,6 +54,7 @@
         min-height: 400px;
       }
     }
+
   </style>
 
 
@@ -64,10 +65,10 @@
         <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
           <i class="fa fa-bars"></i>
         </a>
-        <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> &emsp;Home</a>
-        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> &emsp;About</a>
-        <a href="#books" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> &emsp;Books</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-heart"></i> &emsp;Contact</a>
+        <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> &ensp;Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> &ensp;About</a>
+        <a href="#books" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> &ensp;Books</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-heart"></i> &ensp;Contact</a>
         <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
           <i class="fa fa-search"></i></a> -->
       </div>
@@ -100,7 +101,7 @@
         </div>
 
         <div class="w3-col m6 w3-padding-large">
-          <p><br><br><br><br><br> Hi, I'm Phoebe, currently a freshman computer science
+          <p><br><br><br><br><br> Hi! I'm Phoebe, currently a freshman computer science
              major at the University of California, Berkeley. My passions
              include rock climbing, volleyball, reading, and exploring
              anything new or novel, whether it be food, places, or CS technologies.
@@ -127,8 +128,8 @@
         Programming Languages
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">4</span><br>
-        Fascinating Statistics
+        <span class="w3-xlarge">2</span><br>
+        Hackathons
       </div>
     </div>
 
@@ -155,61 +156,125 @@
       <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71hYQpbv8nL.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="Zorba the Greek">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_zorba'))" class="w3-round w3-hover-opacity" alt="Zorba the Greek">
         </div>
+
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71pjsvmP0XL.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="When">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_when'))" class="w3-round w3-hover-opacity" alt="When">
         </div>
 
         <div class="w3-col m3">
           <img src="https://cdn10.bigcommerce.com/s-igquupw3/products/465915/images/25128927/9781501135910__43086.1567380258.1280.1280.jpg?c=2"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="Shoe Dog">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_sd'))" class="w3-round w3-hover-opacity" alt="Shoe Dog">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81pUH8Q8GkL.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-round w3-hover-opacity" alt="Drive">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_drive'))" class="w3-round w3-round w3-hover-opacity" alt="Drive">
         </div>
       </div>
 
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51IrCHiBIwL._SX331_BO1,204,203,200_.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="Mary Oliver - New and Selected Poems">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="Mary Oliver - New and Selected Poems">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81osh4C0TiL.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="Life 3.0">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Life 3.0">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="The Subtle Art of Not Giving a F*ck">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="The Subtle Art of Not Giving a F*ck">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81qW97ndkvL.jpg"
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="4-Hour Work Week">
+           style="width:80%" onclick="onClick(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="4-Hour Work Week">
         </div>
       </div>
 
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
-          <img src=""
-           style="width:80%" onclick="onClick(this)" class="w3-round w3-hover-opacity" alt="16 more images coming soon...">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41%2BlolL22gL.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="Sapiens">
         </div>
 
-        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/71KOEGdt5KL.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Creativity">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41%2B0OfsnknL._SX330_BO1,204,203,200_.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="The Joy Luck Club">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41xn-Z42liL._SX331_BO1,204,203,200_.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="In Pursuit of the Unknown">
+        </div>
       </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51m0fVDRhrL._SX337_BO1,204,203,200_.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="'Surely You're Joking, Mr. Feynman!'">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41LO6QRvIuL._SX331_BO1,204,203,200_.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Outliers">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/814D0ZxuqHL.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="A Whole New Mind">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="http://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg"
+           style="width:80%" onclick="onClick(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="How to Win Friends and Influence People">
+        </div>
+
+        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD ALL</button>
+      </div>
+
     </div>
 
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+
+    <!-- Hidden text for book blurbs -->
+    <div style="display:none;">
+      <p id="blurb_zorba">
+        Set in the beautiful Mediteranean, <em>Zorba the Greek</em> exemplifies
+        the motif of "living life to the fullest" by immersing the reader into
+        the sporadic and unconventional life of Alexis Zorba. Although select sections
+        of this novel were captivating due to the author's floral writing style,
+        the lack of a singular plot made it difficult for me to follow the twisting
+        structure of the story.<br>2 / 5</p>
+      <p id="blurb_when">
+        ...<br>5 / 5</p>
+      <p id="blurb_sd">
+        ...<br>5 / 5</p>
+      <p id="blurb_drive">
+        ...<br>5 / 5</p>
+      <p id="blurb_mo">
+        ...<br>5 / 5</p>
+      <p id="blurb_life3">
+        ...<br>5 / 5</p>
+      <p id="blurb_subtleart">
+        ...<br>5 / 5</p>
+      <p id="4-hour">
+        ...<br>5 / 5</p>
+    </div>
+
+    <!-- Modal for book blurbs on click -->
+    <div id="modal01" class="w3-modal w3-white" onclick="this.style.display='none'">
       <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
       <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        <img id="img01" class="w3-image">
         <p id="caption" class="w3-opacity w3-large"></p>
       </div>
     </div>
@@ -261,10 +326,9 @@
     <script>
       // Modal Image Gallery
       function onClick(element) {
-        document.getElementById("img01").src = element.src;
         document.getElementById("modal01").style.display = "block";
         var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
+        captionText.innerHTML = element.innerHTML;
       }
 
       // Change style of navbar on scroll
