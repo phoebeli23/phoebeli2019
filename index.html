@@ -55,6 +55,17 @@
       }
     }
 
+    #load-button {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 64px;
+    }
+
+    .highlight {
+      border: 5px solid #ffc107;
+    }
+
   </style>
 
 
@@ -142,58 +153,57 @@
 
     <!-- Container (Portfolio Section) -->
     <div class="w3-content w3-container w3-padding-64" id="books">
-      <h3 class="w3-center">2019 Reading List</h3>
+      <h3 class="w3-center">Reading List</h3>
       <p class="w3-center">
-          One of my New Year's resolutions was to read a book
-          a week. I started out strong, but admittingly, slowed down as summer and the
-          new school year began. Nontheless, I am proud of the progress I have
-          made, improving from a whopping total of 2 books in 2018. The following
-          is the collection of titles I have gone through this year, primarily composed of
-          non-fiction titles on psychology, business, and life.
-          <br><br><em>Coming Soon... Click on the book cover to read a blurb of my thoughts :)</em></p><br>
+          My 2019 New Year's resolution was to make a habit of reading, and looking back,
+          it has been one of the greatest decisions I've ever made. I've read primarily non-fiction 
+          titles, ranging in topics in psychology, business, history, and life in general. Some of
+          favorites from the past year are highlighted.</em></p><br>
+        
+      <h4 class="w3-center">2019</h4><br>
 
       <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
       <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71hYQpbv8nL.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_zorba'))" class="w3-round w3-hover-opacity" alt="Zorba the Greek">
+           style="width:80%" class="w3-round" alt="Zorba the Greek">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71pjsvmP0XL.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_when'))" class="w3-round w3-hover-opacity" alt="When">
+           style="width:80%" class="w3-round" alt="When">
         </div>
 
         <div class="w3-col m3">
           <img src="https://prodimage.images-bn.com/pimages/9781501135927_p0_v3_s550x406.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_sd'))" class="w3-round w3-hover-opacity" alt="Shoe Dog">
+           style="width:80%" class="highlight w3-round" alt="Shoe Dog">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81pUH8Q8GkL.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_drive'))" class="w3-round w3-round w3-hover-opacity" alt="Drive">
+           style="width:80%" class="w3-round highlight" alt="Drive">
         </div>
       </div>
 
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51IrCHiBIwL._SX331_BO1,204,203,200_.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="Mary Oliver - New and Selected Poems">
+           style="width:80%" class="w3-round" alt="Mary Oliver - New and Selected Poems">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81osh4C0TiL.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Life 3.0">
+           style="width:80%" class="w3-round highlight" alt="Life 3.0">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="The Subtle Art of Not Giving a F*ck">
+           style="width:80%" class="w3-round" alt="The Subtle Art of Not Giving a F*ck">
         </div>
 
         <div class="w3-col m3">
           <img src="https://images-na.ssl-images-amazon.com/images/I/81qW97ndkvL.jpg"
-           style="width:80%" onclick="displayBlurb(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="4-Hour Work Week">
+           style="width:80%" class="w3-round" alt="4-Hour Work Week">
         </div>
       </div>
 
@@ -201,164 +211,136 @@
         <div class="w3-row-padding w3-center w3-section">
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/41%2BlolL22gL.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="Sapiens">
+            style="width:80%" class="w3-round highlight" alt="Sapiens">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/71KOEGdt5KL.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Creativity">
+            style="width:80%" class="w3-round" alt="Creativity">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/41%2B0OfsnknL._SX330_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="The Joy Luck Club">
+            style="width:80%" class="w3-round" alt="The Joy Luck Club">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/41xn-Z42liL._SX331_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="In Pursuit of the Unknown">
+            style="width:80%" class="w3-round" alt="In Pursuit of the Unknown">
           </div>
         </div>
 
         <div class="w3-row-padding w3-center w3-section">
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51m0fVDRhrL._SX337_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_mo'))" class="w3-round w3-hover-opacity" alt="'Surely You're Joking, Mr. Feynman!'">
+            style="width:80%" class="w3-round" alt="'Surely You're Joking, Mr. Feynman!'">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/41LO6QRvIuL._SX331_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_life3'))" class="w3-round w3-hover-opacity" alt="Outliers">
+            style="width:80%" class="w3-round highlight" alt="Outliers">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/814D0ZxuqHL.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_subtleart'))" class="w3-round w3-hover-opacity" alt="A Whole New Mind">
+            style="width:80%" class="w3-round" alt="A Whole New Mind">
           </div>
 
           <div class="w3-col m3">
             <img src="http://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_4-hour'))" class="w3-round w3-hover-opacity" alt="How to Win Friends and Influence People">
+            style="width:80%" class="w3-round" alt="How to Win Friends and Influence People">
           </div>
         </div>
 
         <div class="w3-row-padding w3-center w3-section">
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/31eFsT2wNNL._SX342_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_blink'))" class="w3-round w3-hover-opacity" alt="Blink">
+            style="width:80%" class="w3-round" alt="Blink">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/41y2qwzfCrL.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_focus'))" class="w3-round w3-hover-opacity" alt="Focus">
+            style="width:80%" class="w3-round" alt="Focus">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/818qWkHcICL.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_factfulness'))" class="w3-round w3-hover-opacity" alt="Factfulness">
+            style="width:80%" class="w3-round highlight" alt="Factfulness">
           </div>
 
           <div class="w3-col m3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/61AAqzvV7CL._SX332_BO1,204,203,200_.jpg"
-            style="width:80%" onclick="displayBlurb(document.getElementById('blurb_alone'))" class="w3-round w3-hover-opacity" alt="Alone on the Wall">
+            style="width:80%" class="w3-round" alt="Alone on the Wall">
           </div>
         </div>
 
           <div class="w3-row-padding w3-center w3-section">
             <div class="w3-col m3">
               <img src="https://images-na.ssl-images-amazon.com/images/I/51eaZ1mO9ML._SX321_BO1,204,203,200_.jpg"
-              style="width:80%" onclick="displayBlurb(document.getElementById('blurb_circe'))" class="w3-round w3-hover-opacity" alt="Circe">
+              style="width:80%" class="w3-round highlight" alt="Circe">
             </div>
   
             <div class="w3-col m3">
               <img src="https://images-na.ssl-images-amazon.com/images/I/516aVheCskL.jpg"
-              style="width:80%" onclick="displayBlurb(document.getElementById('blurb_emotions'))" class="w3-round w3-hover-opacity" alt="Emotions Revealed">
+              style="width:80%" class="w3-round" alt="Emotions Revealed">
             </div>
   
             <div class="w3-col m3">
               <img src="https://images-na.ssl-images-amazon.com/images/I/51N7s0z8kXL._SX321_BO1,204,203,200_.jpg"
-              style="width:80%" onclick="displayBlurb(document.getElementById('blurb_everythingstore'))" class="w3-round w3-hover-opacity" alt="The Everything Store">
+              style="width:80%" class="w3-round" alt="The Everything Store">
             </div>
   
             <div class="w3-col m3">
               <img src="https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL._SX331_BO1,204,203,200_.jpg"
-              style="width:80%" onclick="displayBlurb(document.getElementById('blurb_dng'))" class="w3-round w3-hover-opacity" alt="David and Goliath">
+              style="width:80%" class="w3-round" alt="David and Goliath">
             </div>
           </div>
 
             <div class="w3-row-padding w3-center w3-section">
               <div class="w3-col m3">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/71QUhm-AnIL.jpg"
-                style="width:80%" onclick="displayBlurb(document.getElementById('blurb_startww'))" class="w3-round w3-hover-opacity" alt="Start with Why">
+                style="width:80%" class="w3-round highlight" alt="Start with Why">
               </div>
     
               <div class="w3-col m3">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/41qipXDURBL._SX326_BO1,204,203,200_.jpg"
-                style="width:80%" onclick="displayBlurb(document.getElementById('blurb_lovedoes'))" class="w3-round w3-hover-opacity" alt="Love Does">
+                style="width:80%" class="w3-round" alt="Love Does">
               </div>
     
               <div class="w3-col m3">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/81RUfP0ZOjL.jpg"
-                style="width:80%" onclick="displayBlurb(document.getElementById('blurb_kite'))" class="w3-round w3-hover-opacity" alt="The Kite Runner">
+                style="width:80%" class="w3-round highlight" alt="The Kite Runner">
               </div>
     
               <div class="w3-col m3">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg"
-                style="width:80%" onclick="displayBlurb(document.getElementById('blurb_becoming'))" class="w3-round w3-hover-opacity" alt="Becoming Michelle Obama">
+                style="width:80%" class="w3-round" alt="Becoming Michelle Obama">
               </div>
             </div>
         </div>
+
+        <button class="w3-button w3-padding-large w3-light-grey" id="load-button" onclick="loadAllBooks()">LOAD ALL</button>
+        
+        <h4 class="w3-center">2020</h4><br>
+
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81hMjlT14ML.jpg"
+             style="width:80%" class="w3-round" alt="Homo Deus">
+          </div>
+        </div>
+
       </div>
 
-      <button class="w3-button w3-padding-large w3-light-grey" id="load-button" style="margin-top:64px" onclick="loadAllBooks()">LOAD ALL</button>
-
     </div>
 
-
-    <!-- Hidden text for book blurbs -->
-    <div style="display:none;">
-      <p id="blurb_zorba">
-        Set in the beautiful Mediteranean, <em>Zorba the Greek</em> exemplied
-        the motif of "living life to the fullest" by immersing the reader into
-        the sporadic and unconventional life of Alexis Zorba. Although select sections
-        of this novel were captivating due to the author's floral writing style,
-        the lack of a clear conflict made it difficult for me to follow the story.</p>
-      <p id="blurb_when">
-        Although I was previously aware of the concept of 'chronotypes' (e.g. morning bird, night owl), 
-        this book taught me a lot more about how timing can influence my behavior. Particularly,
-        we all go through a peak, trough, and rebound in our day's energy level, and we should
-        align our tasks to that pattern. Analytical work is best done in the morning and early afternoon
-        is the primetime for caffiene consumption. This book also ingrained in me the importance of 
-        breaks for maintaining productivity. I loved Daniel Pink's clean writing style and how 
-        every claim was backed up by study. <br><br><em>***Highly Recommend***</em></p>
-      <p id="blurb_sd">
-        As I am writing this near the year's closing, I must say Shoe Dog was one of the most
-        memorable and well-written books in this list. It is an autobiography by Phil Knight,
-        the founder of Nike. It outlined his decades-long journey of creating a company fueled
-        by passion, from its inception for a college project, through the turmoil of gaining
-        traction, to where it is today. The book taught me about startup business, but most importantly,
-        the sheer amount of persistence, humanity, and luck behind a company as successful as Nike. 
-        <br><br><em>***Highly Recommend***</em></p>
-      <p id="blurb_drive">
-        
-      </p>
-      <p id="blurb_mo">
-        ...<br></p>
-      <p id="blurb_life3">
-        ...<br></p>
-      <p id="blurb_subtleart">
-        ...<br></p>
-      <p id="4-hour">
-        ...<br></p>
-    </div>
-
-    <!-- Modal for book blurbs on click -->
+    <!-- Modal for book blurbs on click 
     <div id="modal01" class="w3-modal w3-white" onclick="this.style.display='none'">
       <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
       <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
         <p id="caption" class="w3-opacity w3-large"></p>
       </div>
-    </div>
+    </div> -->
 
     <!-- Third Parallax Image with Portfolio Text -->
     <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -405,17 +387,10 @@
     </footer>
 
     <script>
-      // Modal Image Gallery
-      function displayBlurb(element) {
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.innerHTML;
-      }
-
       //
       function loadAllBooks() {
-        var titleDiv = document.getElementById("hidden-titles");
-        var loadButton = document.getElementById("load-button");
+        let titleDiv = document.getElementById("hidden-titles");
+        let loadButton = document.getElementById("load-button");
         if (titleDiv.style.display === "none") {
           titleDiv.style.display = "block";
           loadButton.innerHTML = "MINIMIZE"
@@ -428,7 +403,7 @@
       // Change style of navbar on scroll
       window.onscroll = function() {myFunction()};
       function myFunction() {
-          var navbar = document.getElementById("myNavbar");
+          let navbar = document.getElementById("myNavbar");
           if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
               navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
           } else {
@@ -438,7 +413,7 @@
 
       // Used to toggle the menu on small screens when clicking on the menu button
       function toggleFunction() {
-          var x = document.getElementById("navDemo");
+          let x = document.getElementById("navDemo");
           if (x.className.indexOf("w3-show") == -1) {
               x.className += " w3-show";
           } else {
